@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
 
 <head>
     <meta charset="UTF-8">
@@ -9,7 +9,10 @@
 <body>
     <h1>Hello Demo1</h1>
 
-    <img src="/images/dog_01.webp">
+    <h2>thymeleaf image</h2>
+    <img th:src="@{/images/dog_01.webp}" width="400px" />
+    <h2>html image</h2>
+    <img src="/images/dog_01.webp" width="400px" />
 </body>
 
 </html>
