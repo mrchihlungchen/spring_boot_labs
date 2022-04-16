@@ -1,13 +1,19 @@
 package com.taishinbank.demo1
 
 import org.junit.jupiter.api.Test
+import org.springframework.beans.factory.annotation.Autowired
 import org.springframework.boot.test.context.SpringBootTest
 
-@SpringBootTest
+@SpringBootTest /* 會啟動整個 spring boot */
 class Demo1ApplicationTests {
 
-	@Test
-	fun contextLoads() {
-	}
+
+	@Autowired
+    var demo1Controller: Demo1Controller? = null
+
+    @Test
+    fun contextLoads() {
+        assert(demo1Controller != null)
+    }
 
 }
