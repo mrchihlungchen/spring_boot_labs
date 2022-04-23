@@ -67,4 +67,6 @@ http://localhost:9999/actuator/monitoring
 #### Actuator
 `
 http://localhost:9999/actuator
+http://localhost:9999/actuator/beans
+http://localhost:9999/actuator/mapping
 `
