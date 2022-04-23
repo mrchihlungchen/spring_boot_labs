@@ -70,3 +70,8 @@ http://localhost:9999/actuator
 http://localhost:9999/actuator/beans
 http://localhost:9999/actuator/mapping
 `
+
+#### 啟用 Jmx
+`
+-Dspring.jmx.enabled=true
+`
