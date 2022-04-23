@@ -58,3 +58,13 @@ java -jar build/libs/demo1-0.0.1-SNAPSHOT.jar --server.port=7777
 `
 java -jar -Dserver.port=6666 -Xmx4096m -Xms2048m build\libs\demo1-0.0.1-SNAPSHOT.jar
 `
+
+#### JavaMelody
+`
+http://localhost:9999/actuator/monitoring
+`
+
+#### Actuator
+`
+http://localhost:9999/actuator
+`
