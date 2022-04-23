@@ -1,5 +1,6 @@
 package com.taishinbank.demo1
 
+import com.taishinbank.demo1.controllers.Demo1Controller
 import org.hamcrest.core.StringContains.containsString
 import org.junit.jupiter.api.Test
 import org.springframework.beans.factory.annotation.Autowired

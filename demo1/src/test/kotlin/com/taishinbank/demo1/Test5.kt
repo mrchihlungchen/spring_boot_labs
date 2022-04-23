@@ -1,8 +1,8 @@
 package com.taishinbank.demo1
 
+import com.taishinbank.demo1.controllers.Demo1Controller
 import org.hamcrest.core.StringContains
 import org.junit.jupiter.api.Test
-import org.mockito.Mockito
 import org.mockito.Mockito.`when`
 import org.springframework.beans.factory.annotation.Autowired
 import org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTest
